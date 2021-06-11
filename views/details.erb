@@ -4,7 +4,7 @@
 	<%= @row['content'] %>
 	<br />
 	<br />
-	Added at <%= @row['created_date'] %>
+	<span style="font-size: 75%; color: #999">Added at <%= @row['created_date'] %></span>
 </p>
 <br />
 <h4>Comments:</h4>
@@ -14,7 +14,7 @@
 		<%= comment['content'] %>
 		<br />
 		<br />
-		<span style="font-size: 75%; color: #999">Added at <%= comment['created_date'] %></span>		
+		<span style="font-size: 75%; color: #999">Added at <%= comment['created_date'] %></span>
 	</p>
 	<hr />
 <% end %>
